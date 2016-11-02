@@ -1,3 +1,14 @@
 body{
     background-color: gray;
 }
+html{
+	/* This image will be displayed fullscreen */
+	background:url('http://www.exfo.com/PageFiles/1109528/SDN.jpg') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+
