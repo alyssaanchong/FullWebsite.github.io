@@ -1,3 +1,7 @@
-html{
-  body-background:<body background="https://payablaw.files.wordpress.com/2014/12/vacation-time.jpg"/>;
+html { 
+  background: url(https://payablaw.files.wordpress.com/2014/12/vacation-time.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
